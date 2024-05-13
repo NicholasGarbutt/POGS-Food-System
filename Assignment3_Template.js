@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; 
-import { SafeAreaView, StyleSheet, Text, Image,View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, Image,View, Button } from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 
 
@@ -20,7 +20,9 @@ export default function App() {
             <Picker.Item label="LETTUCE-$2" values="LETTUCE-$2" />
             <Picker.Item label="POTATO-$4" values="POTATO-$4" />
         </Picker>
-        
+        <Button title="CALCULATE" />
+
+
       </View>
 
       <Text style={styles.footer}>Developed by Nicholas, Alex, Tyson, Anthony</Text>
