@@ -96,8 +96,8 @@ export default function App() {
         <Button title= "Calculate" onPress={calculateTotalPrice} />
       </View>
 
-      <Text style={styles.footer}>Developed by Nicholas, Alex, Tyson, Anthony</Text>
       <Text style={styles.totalPriceLabel}>Total Cost of Order: ${totalPrice}</Text>
+      <Text style={styles.footer}>Developed by Nicholas, Alex, Tyson, Anthony</Text>
 
     </SafeAreaView>
   );
