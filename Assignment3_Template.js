@@ -127,12 +127,10 @@ let styles = StyleSheet.create({
     marginTop: 25,
     textAlign: "center",
     fontSize: 24,
-    fontWeight: 'bold'
   },
   totalPriceLabel: {
     marginTop: 10,
     fontSize: 20,
-    fontWeight: 'bold'
   },
   pickerContainer: {
     marginBottom: 10,
