@@ -9,6 +9,7 @@ export default function App() {
   let [QuanVeg, setQuanVeg] = useState(1);
   let [QuanFruit, setQuanFruit] = useState(1);
 
+
   let [totalPrice, setTotalPrice] = useState(0);
 
   let calculateTotalPrice = () => {
@@ -105,59 +106,40 @@ export default function App() {
 let styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f0f8ff',
-    alignItems: 'center',
-    padding: 20,
+    backgroundColor: '#ffffff',
+    alignItems: 'center'
   },
   heading1: {
     textAlign: "center",
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#2f4f4f',
-    marginVertical: 20,
+    fontSize: 24,
+    fontWeight: 'bold'
   },
   image: {
     marginTop: 25,
     width: 150,
     height: 150,
-    borderRadius: 75,
-    borderWidth: 2,
-    borderColor: '#2f4f4f',
   },
   row2:{
     marginTop: 25,
     alignItems: 'center',
-    width: '100%',
   },
   footer: {
     marginTop: 25,
     textAlign: "center",
-    fontSize: 18,
-    color: '#4682b4',
+    fontSize: 24,
   },
   totalPriceLabel: {
-    marginTop: 20,
-    fontSize: 22,
-    fontWeight: 'bold',
-    color: '#ff4500',
+    marginTop: 10,
+    fontSize: 20,
   },
   pickerContainer: {
-    marginBottom: 20,
-    backgroundColor: '#fffafa',
-    borderRadius: 10,
-    padding: 10,
-    width: '90%',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
+    marginBottom: 10,
   },
   picker: {
-    width: '100%',
+    width: 200,
   },
   quantityPicker: {
-    width: '100%',
-    marginTop: 10,
-  },
+    width: 100,
+    marginBottom: 10,
+  }
 });
