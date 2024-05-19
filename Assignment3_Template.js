@@ -1,3 +1,5 @@
+// Version 48.0.0 Andriod Pixel 4
+
 import React, { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, Image, View, Button } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
